@@ -1,0 +1,12 @@
+/Users/ralibey/GitHub/EdmundsApiPcl-Xamarin/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/ralibey/GitHub/EdmundsApiPcl-Xamarin/bin/Debug/EdmundsRestApi.dll.mdb
+/Users/ralibey/GitHub/EdmundsApiPcl-Xamarin/bin/Debug/EdmundsRestApi.dll
+/Users/ralibey/GitHub/EdmundsApiPcl-Xamarin/obj/Debug/EdmundsRestApi.dll
+/Users/ralibey/GitHub/EdmundsApiPcl-Xamarin/obj/Debug/EdmundsRestApi.dll.mdb
+/Users/ralibey/GitHub/EdmundsApiPcl-Xamarin/bin/Debug/Newtonsoft.Json.dll
+/Users/ralibey/GitHub/EdmundsApiPcl-Xamarin/bin/Debug/Microsoft.Threading.Tasks.dll
+/Users/ralibey/GitHub/EdmundsApiPcl-Xamarin/bin/Debug/Microsoft.Threading.Tasks.Extensions.dll
+/Users/ralibey/GitHub/EdmundsApiPcl-Xamarin/bin/Debug/System.Net.Http.dll
+/Users/ralibey/GitHub/EdmundsApiPcl-Xamarin/bin/Debug/System.Net.Http.Primitives.dll
+/Users/ralibey/GitHub/EdmundsApiPcl-Xamarin/bin/Debug/System.Net.Http.Extensions.dll
+/Users/ralibey/GitHub/EdmundsApiPcl-Xamarin/bin/Debug/ModernHttpClient.dll
