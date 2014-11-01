@@ -29,10 +29,12 @@ namespace EdmundsRestApi.GetStyles
 		/// <param name="year">Year.</param>
 		public async Task<Response> GetResponseAsync(string make, string model, string year)
 		{
-			string url = "https://api.edmunds.com/api/vehicle/v2/{0}/{1}/{2}/styles?fmt=json&api_key={3}";
+			string url = "https://api.edmunds.com/api/vehicle/v2/{0}/{1}/{2}/styles?view=full&fmt=json&api_key={3}";
 			url = string.Format(url, make, model, year, _apiKey);
 
-			string content = await new HttpClient().GetStringAsync(url);
+			string content = await new HttpClient().GetStringAsync(url).ConfigureAwait(false);
+			System.Diagnostics.Debug.WriteLine(url);
+			System.Diagnostics.Debug.WriteLine(content);
 
 			return await Task.Run(() => JsonConvert.DeserializeObject<Response>(content));
 		}

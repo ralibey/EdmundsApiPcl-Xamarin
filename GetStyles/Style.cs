@@ -56,6 +56,84 @@ namespace EdmundsRestApi.GetStyles
 		/// <value>The sub model.</value>
 		public SubModel SubModel{ get; set; }
 
+		/// <summary>
+		/// Gets or sets the states.
+		/// </summary>
+		/// <value>The states.</value>
+		public string[] States{ get; set; }
+
+		/// <summary>
+		/// Gets or sets the engine.
+		/// </summary>
+		/// <value>The engine.</value>
+		public Engine Engine{ get; set; }
+
+		/// <summary>
+		/// Gets or sets the transmission.
+		/// </summary>
+		/// <value>The transmission.</value>
+		public Transmission Transmission{ get; set; }
+
+		/// <summary>
+		/// Gets or sets the options.
+		/// </summary>
+		/// <value>The options.</value>
+		public VehicleOptions[] Options{ get; set; }
+
+		/// <summary>
+		/// Gets or sets the colors.
+		/// </summary>
+		/// <value>The colors.</value>
+		public Colors[] Colors{ get; set; }
+
+		/// <summary>
+		/// Gets or sets the driven wheels.
+		/// </summary>
+		/// <value>The driven wheels.</value>
+		public string DrivenWheels{ get; set; }
+
+		/// <summary>
+		/// Gets or sets the number of doors.
+		/// </summary>
+		/// <value>The number of doors.</value>
+		public string NumOfDoors{ get; set; }
+
+		/// <summary>
+		/// Gets or sets the squish vins.
+		/// </summary>
+		/// <value>The squish vins.</value>
+		public string[] SquishVins{ get; set; }
+
+		/// <summary>
+		/// Gets or sets the categories.
+		/// </summary>
+		/// <value>The categories.</value>
+		public Categories Categories{ get; set; }
+
+		/// <summary>
+		/// Gets or sets the MP.
+		/// </summary>
+		/// <value>The MP.</value>
+		public FuelEfficiency MPG{ get; set; }
+
+		/// <summary>
+		/// Gets or sets the manufacturer code.
+		/// </summary>
+		/// <value>The manufacturer code.</value>
+		public string ManufacturerCode{ get; set; }
+
+		/// <summary>
+		/// Gets or sets the price.
+		/// </summary>
+		/// <value>The price.</value>
+		public Pricing Price{ get; set; }
+
+		/// <summary>
+		/// Gets or sets the display.
+		/// </summary>
+		/// <value>The display.</value>
+		public string Display{ get { return string.Format("{0}\n{1}", Trim, Name); } }
+
 	}
 }
 

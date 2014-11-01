@@ -10,8 +10,6 @@
     <AssemblyName>EdmundsRestApi</AssemblyName>
     <TargetFrameworkProfile>Profile78</TargetFrameworkProfile>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -45,6 +43,15 @@
     <Compile Include="GetStyles\Response.cs" />
     <Compile Include="GetStyles\Style.cs" />
     <Compile Include="GetStyles\ModelYear.cs" />
+    <Compile Include="GetStyles\Engine.cs" />
+    <Compile Include="GetStyles\Transmission.cs" />
+    <Compile Include="GetStyles\Option.cs" />
+    <Compile Include="GetStyles\Color.cs" />
+    <Compile Include="GetStyles\Colors.cs" />
+    <Compile Include="GetStyles\Categories.cs" />
+    <Compile Include="GetStyles\FuelEfficiency.cs" />
+    <Compile Include="GetStyles\VehicleOptions.cs" />
+    <Compile Include="GetStyles\Pricing.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
